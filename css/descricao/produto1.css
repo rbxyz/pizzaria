@@ -16,6 +16,9 @@ ul {
   .card {
     cursor: pointer;
     margin: 0 auto;
+      /*agora fica centralizado e com a cor d selecao*/
+    text-align: center;
+    margin: 0 auto;
   }  
 
   .card:hover {
