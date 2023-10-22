@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF5733;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 24px;
+}
+
+.menu p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+footer {
+    text-align: center;
+    background-color: #FF5733;
+    padding: 10px;
+    color: #FFFFFF;
+}
