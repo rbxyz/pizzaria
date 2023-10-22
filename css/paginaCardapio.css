@@ -11,6 +11,15 @@
     transition: 0.3s;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+}
+/*muda a imagem no card*/
+.card-image {
+
+    max-height: 400px; 
+    max-width: 400px;
 }
 .card a{
     display: block;
