@@ -38,10 +38,44 @@ h1 {
 ul {
     list-style-type: disc;
 }
-
+/*cores rodape*/
 footer {
     text-align: center;
     background-color: #FF5733;
     padding: 10px;
     color: #FFFFFF;
 }
+/*21/10*/
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+}
+/*stilo botao*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   /*cabeçalho fixo que permanece na parte superior da tela*/
+   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #4CAF50;
+  }
+  body {
+    margin-top: 100px;
+  }
+  /*ordenando as colunas*/
