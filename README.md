@@ -43,6 +43,10 @@ Conheça nossa equipe dedicada à criação e manutenção da Pizzaria Fantoni:
 
 Se você tem alguma dúvida, sugestão ou deseja colaborar de alguma forma, sinta-se à vontade para entrar em contato conosco:
 
-- [Instagram](https://www.instagram.com/deliciadivina)
+- [Instagram](https://www.instagram.com/rb_rs)
+- [Instagram](https://www.instagram.com/harixts)
+
+- /*█▀▀ █▀█ █▀▀ █▀▀ █▀▀ █▀▀
+    █▄▄ █▄█ █▀░ █▀░ ██▄ ██▄*/
 
 Aproveite a experiência da Pizzaria Delícia Divina e faça parte desta jornada saborosa! 🍕✨
