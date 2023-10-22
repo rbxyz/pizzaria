@@ -1,0 +1,65 @@
+/*ordenando as colunas*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover {
+    background-color: #ccc;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.card:first-child {
+    margin: 1 auto;
+
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF5733;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #FF5733;
+    padding: 10px;
+    color: #FFFFFF;
+}
