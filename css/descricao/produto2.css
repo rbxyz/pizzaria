@@ -14,11 +14,23 @@ ul {
     color: black;
   }
   .card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
     cursor: pointer;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-  margin: 0 auto;
-  }  
+    margin: 0 auto; 
+
+}
+/*não sei pq mas funfou*/
+.card-image {
+
+    max-height: 400px; 
+    max-width: 400px;
+}
 
   .card:hover {
     background-color: #ccc;
