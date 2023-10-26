@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="../css/paginaContato.css">
+    
 </head>
 <body>
+    <div class="container">
+        <div class="card">
+            <h2>Douglas Hariel Fantoni</h2>
+            <p>Telefone: 51 123456789</p>
+            <p>Email: douglasEmail@email.com</p>
+        </div>
 
-<!--pop-up com javascript? -->
+        <div class="card">
+            <h2>Ruan Gabriel Ferreira Bueno</h2>
+            <p>Telefone: 51 123456789</p>
+            <p>Email: ruanEmail@email.com</p>
+        </div>
+
+        <form id="feedbackForm">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>
