@@ -46,7 +46,7 @@ Se você tem alguma dúvida, sugestão ou deseja colaborar de alguma forma, sint
 - [Instagram](https://www.instagram.com/rb_rs)
 - [Instagram](https://www.instagram.com/harixts)
 
-- /*█▀▀ █▀█ █▀▀ █▀▀ █▀▀ █▀▀
+- /*█▀▀ █▀█ █▀▀ █▀▀ █▀▀ █▀▀ <br>
     █▄▄ █▄█ █▀░ █▀░ ██▄ ██▄*/
 
 Aproveite a experiência da Pizzaria Delícia Divina e faça parte desta jornada saborosa! 🍕✨
