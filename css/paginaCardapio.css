@@ -1,74 +1,93 @@
-/*ordenando as colunas*/
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
 
-.card {
-    width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-
-}
-/*muda a imagem no card*/
-.card-image {
-
-    max-height: 400px; 
-    max-width: 400px;
-}
-.card a{
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.card:hover {
-    background-color: #ccc;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
-}
-.card:first-child {
-    margin: 1 auto;
-
-  }
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #FF5733;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    color: #FFFFFF;
-}
-
-.menu {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #FFFFFF;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    text-align: center;
-}
-footer {
-    text-align: center;
-    background-color: #FF5733;
-    padding: 10px;
-    color: #FFFFFF;
-}
+    <link rel="stylesheet" href="../css/paginaCardapio.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria dos guri</title>
+</head>
+<body>
+    <body>
+        <!-- /*
+            █▀▀ █▀█ █▀▀ █▀▀ █▀▀ █▀▀
+            █▄▄ █▄█ █▀░ █▀░ ██▄ ██▄*/-->
+        <header>
+            <h1>Bem-vindo à Pizzaria dos gugu</h1>
+        </header>   
+        <header>
+            <nav>   
+                <div class="container" style="width: 100%; margin: 0 auto; text-align: right;">
+                    <form action="/search" action="post">
+                        <input type="text" name="q" placeholder="Search">
+                        <input type="submit" value="Search">
+                      </form>
+                </div>
+            </nav>
+            <nav>
+                <ul>
+                    <button class="button" onclick="window.location.href='paginaprincipal.html'">Home</button>
+                    <!-- função `window.location.href` para redirecionar a página atual para outra url -->
+                    <button class="button" onclick="window.location.href='paginaCardapio.html'">Cardapio</button>
+                    <button class="button" onclick="window.location.href='paginaContato.html'">Contato</button>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="../html/imagens/foto1.avif" class="card-img-top" alt="..." onclick="window.location.href='produto1.html'">
+            <!-- esse onclick location.href redireciona como o outro-->
+            <div class="card-body" >
+               <h5 class="card-title">Foto 1</h5>
+               <p class="card-text">Descrição da foto 1.</p>
+               <p class="card-text">Preço: R$ 100,00</p>
+            </div>
+           </div>
+           <div class="card" style="width: 18rem;">
+            <img src="../html/imagens/foto1.avif" class="card-img-top" alt="..." onclick="window.location.href='produto2.html'">
+            <div class="card-body">
+               <h5 class="card-title">Foto 2</h5>
+               <p class="card-text">Descrição da foto 2.</p>
+               <p class="card-text">Preço: R$ 100,00</p>
+            </div>
+           </div>
+           <div class="card" style="width: 18rem;">
+            <img src="../html/imagens/foto1.avif" class="card-img-top" alt="..." onclick="window.location.href='produto3.html'">
+            <div class="card-body">
+               <h5 class="card-title">Foto 3</h5>
+               <p class="card-text">Descrição da foto 3.</p>
+               <p class="card-text">Preço: R$ 100,00</p>
+            </div>
+           </div>
+           <div class="card" style="width: 18rem;">
+            <img src="../html/imagens/foto1.avif" class="card-img-top" alt="..." onclick="window.location.href='produto4.html'">
+            <div class="card-body">
+               <h5 class="card-title">Foto 4</h5>
+               <p class="card-text">Descrição da foto 1.</p>
+               <p class="card-text">Preço: R$ 100,00</p>
+            </div>
+           </div>
+           <div class="card" style="width: 18rem;">
+            <img src="../html/imagens/foto1.avif" class="card-img-top" alt="..." onclick="window.location.href='produto5.html'">
+            <div class="card-body">
+               <h5 class="card-title">Foto 5</h5>
+               <p class="card-text">Descrição da foto 5.</p>
+               <p class="card-text">Preço: R$ 100,00</p>
+            </div>
+           </div>
+           <div class="card" style="width: 18rem;">
+            <img src="../html/imagens/foto1.avif" class="card-img-top" alt="..." onclick="window.location.href='produto6.html'">
+            <div class="card-body">
+               <h5 class="card-title">Foto 6</h5>
+               <p class="card-text">Descrição da foto 6.</p>
+               <p class="card-text">Preço: R$ 100,00</p>
+            </div>
+           </div>
+        </div>
+        <footer>
+            <p>&copy; 2023 Pizzaria dos gugu. Todos os direitos reservados para Douglas Hariel (Designer e FrontEnd) e Ruan Gabriel (BackEnd e Gestor do Projeto).</p>
+        </footer>
+    </body>
+</body>
+</html>
