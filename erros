@@ -1,0 +1,41 @@
+The requested URL was not found on this server.
+*solucao*
+O erro 404 significa que a página solicitada não foi encontrada no servidor. Isso pode ocorrer por
+
+meu produto nao ta indo na merda do centro da pagina
+ * concertei*
+ takei o 
+_ 
+
+text-align: center;
+margin: 0 auto;
+_
+tiro e queda
+
+// COMEÇANDO OS ERROS PHP
+25/10
+Fatal error: Uncaught PDOException: 
+SQLSTATE[HY000] [1049] 
+Unknown database 'rb' in 
+C:\xampp\htdocs\projetos\Pizzaria\pizzaria 
+v0.1\pizzaria\user\php\funcoes.php:7 
+Stack trace: #0 C:\xampp\htdocs\projetos\
+Pizzaria\pizzaria v0.1\pizzaria\user\php\
+funcoes.php(7): PDO->__c
+onstruct('mysql:host=loca...', 'root', '') 
+#1 C:\xampp\htdocs\projetos\Pizzaria\
+pizzaria v0.1\pizzaria\user\php\
+paginaContato.php(3): conectar() #2 
+{main} thrown in C:\xampp\htdocs\projetos\
+Pizzaria\pizzaria v0.1\pizzaria\user\php\
+funcoes.php on line 7
+
+*concertei, mudei o nome que tava com o banco de dados antigo*
+
+
+foi feito todo projeto em hmtl mas boa parte era em php_check_syntax
+*refazendo na força do ódio e a base de muito café*
+
+
+
+// FIM DOS ERROS PHP
