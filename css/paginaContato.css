@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: auto;
+        }
+
+        .card {
+            background-color: #FF5733;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        header {
+            background-color: #FF5733;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        footer {
+        text-align: center;
+        background-color: #FF5733;
+        padding: 10px;
+        color: #FFFFFF;
+        }
