@@ -108,5 +108,20 @@ function alterarPessoa($conexao, $nome, $rua, $idPessoa, $auxNumero, $auxSobreno
     $stmt->bindParam(":id", $idPessoa, PDO::PARAM_INT);
     return $stmt->execute();
 }
+// INICIO FUNCOES PIZZARIA ADM
+function inserirProduto(object $conexao, String $nome, date $data, String $descricao, longblob $imagem):bool {
+    $sql = "INSERT INTO produtos (nome, data, descricao, imagem) VALUES(?,?,?,?,?)";
+    $stmt = $conexao->prepare($sql);
+    $stmt->bindParam(1,$nome,PDO::PARAM_STR);
+    $stmt->bindParam(2,$data,PDO::PARAM_STR);
+    $stmt->bindParam(3,$descricao,PDO::PARAM_STR);
+    $stmt->bindParam(4,$imagem,PDO::PARAM_INT);
+    if($stmt->execute()){
+        return true;
+    }else{
+        return false;
+    }
+}
+
 
 ?>
