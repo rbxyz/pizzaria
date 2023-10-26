@@ -8,27 +8,42 @@
     
 </head>
 <body>
-        <form id="feedbackForm">
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" required>
+    <header>
+        <nav>
+            <ul>
+                <button class="button" onclick="window.location.href='paginaprincipal.html'">Home</button>
+                <!-- função `window.location.href` para redirecionar a página atual para outra url -->
+                <button class="button" onclick="window.location.href='paginaCardapio.html'">Cardapio</button>
+                <button class="button" onclick="window.location.href='paginaContato.html'">Contato</button>
+            </ul>
+        </nav>
 
-            <label for="message">Mensagem</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <input type="submit" value="Submit">
-        </form>
+    </header>
+    <div class="container">
+        <div class="card">
+            <form id="form">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
         <div class="container">
             <div class="card">
                 <h2>Douglas Hariel Fantoni</h2>
                 <p>Telefone: 51 123456789</p>
                 <p>Email: douglasEmail@email.com</p>
-            </div>
-    
-            <div class="card">
                 <h2>Ruan Gabriel Ferreira Bueno</h2>
                 <p>Telefone: 51 123456789</p>
                 <p>Email: ruanEmail@email.com</p>
             </div>
-            </div>
+        </div>
+        <footer>
+            <p>&copy; 2023 Pizzaria dos gugu. Todos os direitos reservados para Douglas Hariel (Designer e FrontEnd) e Ruan Gabriel (BackEnd e Gestor do Projeto).</p>
+        </footer>
 </body>
 </html>
